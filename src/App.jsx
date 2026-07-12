@@ -1,16 +1,9 @@
-
-// App.jsx
-import UserList from './UserList';
+import LoginForm from './LoginForm';
 
 const App = () => {
-  const users = [
-    { id: 1, name: 'aniso', email: 'aniso@gamail.com' },
-    { id: 2, name: 'mohamed', email: 'mohamed@gmail.com' },
-  ];
-
   return (
     <div>
-      <UserList users={users} />
+      <LoginForm />
     </div>
   );
 };
